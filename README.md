@@ -6,6 +6,4 @@ Skills learned prior:
 - HTML
 - git + GitHub
 
-*Updated with CSS 26/06/23
-
-https://mocchu.github.io/odin-recipes/
+*Added CSS 26/06/23
