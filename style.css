@@ -1,5 +1,5 @@
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: rgb(27, 27, 27);
     color: white;
     padding: 15px 25vw 15px 25vw; /* vw for responsive padding*/
