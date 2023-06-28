@@ -16,6 +16,10 @@ body {
 	/* padding: 15px 25vw 15px 25vw; vw for responsive padding */
 }
 
+p {
+	color: rgb(196, 196, 196);
+}
+
 a {
 	color: white;
 }
@@ -31,6 +35,10 @@ hr {
 
 hr.index {
 	margin: 0;
+}
+
+p.index {
+	color: white;
 }
 
 h1 {
@@ -63,9 +71,10 @@ ol {
 }
 
 .footer {
+	color: white;
 	padding: 0.5rem;
 	margin-top: -2rem;
-	margin-bottom: 0rem;
+	margin-bottom: 1rem;
 	background-color: rgb(51, 51, 50);
 }
 
