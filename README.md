@@ -1,9 +1,9 @@
 # odin-recipes
 
-The Odin Project - HTML Recipe Project
+The Odin Project - HTML + CSS Project 1
 
-Skills learned prior:
-- HTML
-- git + GitHub
+Things learned prior:
+-   HTML
+-   git + GitHub
 
-*Added CSS 26/06/23
+*Add CSS 26/06/23
