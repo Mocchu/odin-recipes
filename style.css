@@ -11,7 +11,7 @@ body {
 	background-color: rgb(27, 27, 27);
 	color: white;
 	font-family: "Open Sans", sans-serif;
-	width: 50%;
+	max-width: 800px;
 	margin: 0 auto; /* better method than below */
 	/* padding: 15px 25vw 15px 25vw; vw for responsive padding */
 }
@@ -29,6 +29,10 @@ hr {
 	margin: 3rem 0;
 }
 
+hr.index {
+	margin: 0;
+}
+
 h1 {
 	background-color: rgb(51, 51, 50);
 	padding: 0.5rem;
@@ -39,7 +43,10 @@ li {
 }
 
 img {
-	width: 50%;
+	max-width: 500px;
+	min-width: 400px;
+	margin-top: 1em;
+	margin-bottom: -1em;
 }
 
 ol {
@@ -58,4 +65,12 @@ ol {
 	padding: 0.5rem;
 	margin-top: -2rem;
 	background-color: rgb(51, 51, 50);
+}
+
+.description-image {
+	display: inline-flex;
+}
+
+.description {
+	margin-right: 2rem;
 }
