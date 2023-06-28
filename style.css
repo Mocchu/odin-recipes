@@ -1,18 +1,61 @@
-body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: rgb(27, 27, 27);
-    color: white;
-    padding: 15px 25vw 15px 25vw; /* vw for responsive padding*/
+html {
+	box-sizing: border-box;
 }
 
-a:visited { /* clicked hyperlinks color */
-    color: grey;
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: rgb(27, 27, 27);
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	width: 50%;
+	margin: 0 auto; /* better method than below */
+	/* padding: 15px 25vw 15px 25vw; vw for responsive padding */
+}
+
+a {
+	color: white;
+}
+
+a:visited {
+	color: rgb(196, 196, 196);
 }
 
 hr {
-    opacity: 20%;
+	opacity: 20%;
+	margin: 3rem 0;
 }
 
 h1 {
-    background-color: rgb(51, 51, 50);
+	background-color: rgb(51, 51, 50);
+	padding: 0.5rem;
+}
+
+li {
+	padding: 0.5rem;
+}
+
+img {
+	width: 40%;
+}
+
+ol {
+	margin-bottom: 5rem;
+}
+
+.back.block {
+	display: block;
+}
+
+.top-hr {
+	margin: 0.7rem 0;
+}
+
+.footer {
+	padding: 0.5rem;
+	margin-top: -2rem;
+	background-color: rgb(51, 51, 50);
 }
