@@ -2,8 +2,6 @@
 
 The Odin Project - HTML + CSS Project 1
 
-Things learned prior:
--   HTML
--   git + GitHub
+Simple HTML and CSS recipe page
 
 *Add CSS 26/06/23
